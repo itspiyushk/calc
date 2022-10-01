@@ -1,0 +1,129 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+html,body{
+    min-height: 100% !important;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    height: 100%;
+    background-color:#ffffff;
+}
+
+.result{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    color:#000000;
+    height:39%;
+}
+.result span{
+    margin-left: 400px;
+    font-size:90px;
+    justify-self: flex-end;
+}
+
+.buttons{
+    padding: 33px;
+    width:100%;
+    height:60%;
+    background-color:#f9f8f8;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item{
+    dispaly:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 50px;
+    color:white;
+    cursor:pointer;
+    align-self: center;
+    justify-self: center;
+}
+.percent{
+color:orange;
+border: none;
+text-align: center;
+}
+
+.ve{
+ color:darkgrey;
+border: none;
+text-align: center;
+color:black;
+}
+
+.clear{
+   color:rgb(230, 171, 60);
+    border: none;
+    text-align: center;
+       
+}
+
+.divide{
+color:#ff9f0a;
+    border: none;
+    text-align: center;
+      
+}
+
+.multiply{
+color:#ff9f0a;
+    border: none;
+    text-align: center;
+     
+}
+
+.minus{
+    color:#ff9f0a;
+    border: none;
+    text-align: center;
+     
+}
+
+.plus{
+color:#ff9f0a;
+    border: none;
+    text-align: center;
+    
+}
+
+.equals{
+    border: none;
+    text-align: center;
+    color:orange; 
+}
+.numbers, .dot{
+color:#343434;
+    border: none;
+    text-align: center;
+    
+}
+
+.clear, .ve{
+    color: orange;
+}
+
+.zero{
+    color: #343434;
+    width:400px;
+    border-radius: 135px;
+    border:none;
+    text-align: center;
+}
+
+.buttons{
+    padding:40px;
+    border-radius: 40px;
+}
+
+.Hello{
+    color: rgba(25, 150, 23, 0.818);
+}
